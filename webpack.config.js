@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+// NB: @babel/polyfill needs to be listed first 
 const config = {
   mode: 'development',
   entry: [
